@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description" content="Assitana">
+  <link href="assets/images/favicon/favicon.png" rel="icon">
+  <title>Assitana</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Rubik:400,500,700%7cShadows+Into+Light&display=swap">
+  <link rel="stylesheet" href="assets/css/libraries.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- =========================
+        Header
+    =========================== -->
+    <header id="header" class="header header-transparent header-layout1">
+      <nav class="navbar navbar-expand-lg sticky-navbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/images/logo/logo-light.png" class="logo-light" alt="logo">
+            <img src="assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button">
+            <span class="menu-lines"><span></span></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNavigation">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav__item">
+                <a href="index.html" class="nav__item-link">Home</a>
+              </li><!-- /.nav-item -->
+              <li class="nav__item">
+                <a href="our-story.html" class="nav__item-link">
+                  À propos de nous</a>
+              </li><!-- /.nav-item -->
+              <li class="nav__item">
+                <a href="menu.html"  class="nav__item-link">Menu</a>  
+              </li><!-- /.nav-item -->
+
+              <li class="nav__item with-dropdown">
+                <a href="gallery-grid.html"class="nav__item-link active">Gallery</a>
+               
+              </li><!-- /.nav-item -->
+  
+          
+
+
+
+              <li class="nav__item"><a href="contacts.html" class="nav__item-link">Contactez-Nous</a></li>
+            
+              <!-- /.nav-item -->
+            </ul><!-- /.navbar-nav -->
+          </div><!-- /.navbar-collapse -->
+          <div class="navbar-actions-wrap">
+            <div class="navbar-actions d-flex align-items-center">
+              <!-- <a href="#" class="navbar__action-btn search-popup-trigger"><i class="fa fa-search"></i></a>
+              <a href="reservation.html"
+                class="navbar__action-btn navbar__action-btn-reserve btn btn__primary">Reservation</a> -->
+              <ul class="social__icons">
+                <li><a href="https://www.facebook.com/Assitana-100594418313892/?ref=py_c"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-tripadvisor"></i></a></li>
+              </ul><!-- /.social__icons -->
+            </div><!-- /.navbar-actions -->
+          </div><!-- /.navbar-actions-wrap -->
+        </div><!-- /.container -->
+      </nav><!-- /.navabr -->
+    </header><!-- /.Header -->
+
+    <!-- ========================
+       page title 
+    =========================== -->
+    <section id="page-title" class="page-title page-title-layout4 text-center bg-overlay bg-overlay-2 bg-parallax">
+      <div class="bg-img"><img src="assets/images/backgrounds/f.jpg" alt="background"></div>
+      <svg class="pagetitle__divider-shape" xmlns="http://www.w3.org/2000/svg" width="22" height="61"
+        viewBox="0 0 22 61">
+        <path
+          d="M799,769h2v61h-2V769Zm8,24.8a0.969,0.969,0,0,0-1.911,0,3.012,3.012,0,0,1-.883,2.16,4.486,4.486,0,0,0,0,6.136,3.083,3.083,0,0,1,0,4.32,4.486,4.486,0,0,0,0,6.136,3.088,3.088,0,0,1,0,4.325,4.5,4.5,0,0,0,0,6.142,3.014,3.014,0,0,1,.884,2.163,0.969,0.969,0,0,0,1.911,0,4.414,4.414,0,0,0-1.213-3.07,3.091,3.091,0,0,1,0-4.328,4.491,4.491,0,0,0,0-6.14,3.08,3.08,0,0,1,0-4.319,4.488,4.488,0,0,0,0-6.137,3.081,3.081,0,0,1,0-4.32A4.407,4.407,0,0,0,807,793.8Zm0-20a0.969,0.969,0,0,0-1.911,0,3.014,3.014,0,0,1-.883,2.16,4.486,4.486,0,0,0,0,6.136,3.083,3.083,0,0,1,0,4.32,4.488,4.488,0,0,0,0,6.137,3.087,3.087,0,0,1,0,4.324,4.5,4.5,0,0,0,0,6.142,3.014,3.014,0,0,1,.884,2.163,0.969,0.969,0,0,0,1.911,0,4.414,4.414,0,0,0-1.213-3.07,3.089,3.089,0,0,1,0-4.327,4.491,4.491,0,0,0,0-6.14,3.081,3.081,0,0,1,0-4.32,4.488,4.488,0,0,0,0-6.137,3.081,3.081,0,0,1,0-4.32A4.409,4.409,0,0,0,807,773.8ZM793,793.8a0.969,0.969,0,0,1,1.911,0,3.012,3.012,0,0,0,.883,2.16,4.486,4.486,0,0,1,0,6.136,3.083,3.083,0,0,0,0,4.32,4.486,4.486,0,0,1,0,6.136,3.088,3.088,0,0,0,0,4.325,4.5,4.5,0,0,1,0,6.142,3.014,3.014,0,0,0-.884,2.163,0.969,0.969,0,0,1-1.911,0,4.414,4.414,0,0,1,1.213-3.07,3.091,3.091,0,0,0,0-4.328,4.491,4.491,0,0,1,0-6.14,3.08,3.08,0,0,0,0-4.319,4.488,4.488,0,0,1,0-6.137,3.081,3.081,0,0,0,0-4.32A4.407,4.407,0,0,1,793,793.8Zm0-20a0.969,0.969,0,0,1,1.911,0,3.014,3.014,0,0,0,.883,2.16,4.486,4.486,0,0,1,0,6.136,3.083,3.083,0,0,0,0,4.32,4.488,4.488,0,0,1,0,6.137,3.087,3.087,0,0,0,0,4.324,4.5,4.5,0,0,1,0,6.142,3.014,3.014,0,0,0-.884,2.163,0.969,0.969,0,0,1-1.911,0,4.414,4.414,0,0,1,1.213-3.07,3.089,3.089,0,0,0,0-4.327,4.491,4.491,0,0,1,0-6.14,3.081,3.081,0,0,0,0-4.32,4.488,4.488,0,0,1,0-6.137,3.081,3.081,0,0,0,0-4.32A4.409,4.409,0,0,1,793,773.8Zm-4,5.2h2v41h-2V779Zm20,0h2v41h-2V779Z"
+          transform="translate(-789 -769)"></path>
+      </svg>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <span class="pagetitle__subheading">Assitana</span>
+            <h1 class="pagetitle__heading">Gallery</h1>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb justify-content-center">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Gallery</li>
+              </ol>
+            </nav>
+          </div><!-- /.col-lg-12 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.page-title -->
+
+    <!-- =========================== 
+      portfolio Gallery 
+    ============================= -->
+    <section id="portfolioGallery" class="portfolio portfolio-gallery">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <ul class="portfolio-filter justify-content-center">
+              <li><a class="filter active" href="#" data-filter="all">All</a></li>
+              <li><a class="filter" href="#" data-filter=".filter-cafe">Café</a></li>
+              <li><a class="filter" href="#" data-filter=".filter-resto">Restaurant</a></li>
+              <li><a class="filter" href="#" data-filter=".filter-boul">Boulengerie</a></li>
+              <li><a class="filter" href="#" data-filter=".filter-pat">Patisserie</a></li>
+            </ul><!-- /.portfolio-filter  -->
+          </div><!-- /.col-lg-12 -->
+        </div><!-- /.row -->
+        <div class="row filtered-items-wrap">
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-cafe"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/cafe/0.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/cafe/0.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-resto"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/resto/0.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/resto/0.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-boul"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/boulangerie/0.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/boulangerie/0.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-pat"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/patisserie/0.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/patisserie/0.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-cafe"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/cafe/1.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/cafe/1.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-resto"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/resto/1.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/resto/1.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-boul"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/boulangerie/1.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/boulangerie/1.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-pat"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/patisserie/1.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/patisserie/1.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-cafe"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/cafe/2.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/cafe/2.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-resto"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/resto/2.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/resto/2.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-boul"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/boulangerie/2.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/boulangerie/2.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-pat"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/patisserie/2.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/patisserie/2.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-cafe"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/cafe/3.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/cafe/3.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-resto"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/resto/3.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/resto/3.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-boul"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/boulangerie/3.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/boulangerie/3.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-pat"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/patisserie/3.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/patisserie/3.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-resto"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/resto/4.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/resto/4.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-boul"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/boulangerie/4.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/boulangerie/4.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-pat"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/patisserie/4.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/patisserie/4.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-cafe"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/cafe/5.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/cafe/5.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-resto"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/resto/5.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/resto/5.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-boul"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/boulangerie/5.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/boulangerie/5.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-pat"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/patisserie/5.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/patisserie/5.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-cafe"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/cafe/6.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/cafe/6.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-resto"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/resto/6.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/resto/6.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-boul"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/boulangerie/6.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/boulangerie/6.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-pat"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/patisserie/6.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/patisserie/6.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-resto"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/resto/7.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/resto/7.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-boul"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/boulangerie/7.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/boulangerie/7.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-pat"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/patisserie/7.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/patisserie/7.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-resto"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/resto/8.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/resto/8.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-boul"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/boulangerie/8.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/boulangerie/8.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-pat"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/patisserie/8.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/patisserie/8.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-boul"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/boulangerie/9.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/boulangerie/9.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-pat"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/patisserie/9.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/patisserie/9.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-boul"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/boulangerie/10.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/boulangerie/10.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-pat"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/patisserie/10.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/patisserie/10.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-boul"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/boulangerie/11.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/boulangerie/11.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-pat"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/patisserie/11.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/patisserie/11.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-boul"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/boulangerie/12.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/boulangerie/12.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-pat"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/patisserie/12.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/patisserie/12.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-boul"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/boulangerie/13.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/boulangerie/13.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-pat"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/patisserie/13.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/patisserie/13.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+
+      
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-boul"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/boulangerie/14.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/boulangerie/14.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-pat"><div class="portfolio-item"><div class="portfolio_img"><img src="assets/images/gallery/patisserie/14.jpg" alt="portfolio img"></div><!-- /.portfolio-img --><div class="portfoliohover"><a href="assets/images/gallery/patisserie/14.jpg" data-lightbox="lightbox" class="zoomicon"></a></div><!-- /.portfolio_hover--></div><!-- /.portfolio-item --></div><!-- /.col-lg-4 -->
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+            <a class="btn btn__secondary btn__link mt-20 loadMoreportfolio" href="#">Load more</a>
+          </div><!-- /.col-lg-12 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.portfolio Gallery -->
+
+    <!-- ========================
+      Footer
+    ========================== -->
+    <footer id="footer" class="footer footer-layout1 text-center bg-dark">
+      <div class="footer-inner">
+        <div class="container">
+          <div class="footer-top">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-12 position-static">
+                <svg class="footer__divider-shape" xmlns="http://www.w3.org/2000/svg" width="22" height="61"
+                  viewBox="0 0 22 61">
+                  <path
+                    d="M799,769h2v61h-2V769Zm8,24.8a0.969,0.969,0,0,0-1.911,0,3.012,3.012,0,0,1-.883,2.16,4.486,4.486,0,0,0,0,6.136,3.083,3.083,0,0,1,0,4.32,4.486,4.486,0,0,0,0,6.136,3.088,3.088,0,0,1,0,4.325,4.5,4.5,0,0,0,0,6.142,3.014,3.014,0,0,1,.884,2.163,0.969,0.969,0,0,0,1.911,0,4.414,4.414,0,0,0-1.213-3.07,3.091,3.091,0,0,1,0-4.328,4.491,4.491,0,0,0,0-6.14,3.08,3.08,0,0,1,0-4.319,4.488,4.488,0,0,0,0-6.137,3.081,3.081,0,0,1,0-4.32A4.407,4.407,0,0,0,807,793.8Zm0-20a0.969,0.969,0,0,0-1.911,0,3.014,3.014,0,0,1-.883,2.16,4.486,4.486,0,0,0,0,6.136,3.083,3.083,0,0,1,0,4.32,4.488,4.488,0,0,0,0,6.137,3.087,3.087,0,0,1,0,4.324,4.5,4.5,0,0,0,0,6.142,3.014,3.014,0,0,1,.884,2.163,0.969,0.969,0,0,0,1.911,0,4.414,4.414,0,0,0-1.213-3.07,3.089,3.089,0,0,1,0-4.327,4.491,4.491,0,0,0,0-6.14,3.081,3.081,0,0,1,0-4.32,4.488,4.488,0,0,0,0-6.137,3.081,3.081,0,0,1,0-4.32A4.409,4.409,0,0,0,807,773.8ZM793,793.8a0.969,0.969,0,0,1,1.911,0,3.012,3.012,0,0,0,.883,2.16,4.486,4.486,0,0,1,0,6.136,3.083,3.083,0,0,0,0,4.32,4.486,4.486,0,0,1,0,6.136,3.088,3.088,0,0,0,0,4.325,4.5,4.5,0,0,1,0,6.142,3.014,3.014,0,0,0-.884,2.163,0.969,0.969,0,0,1-1.911,0,4.414,4.414,0,0,1,1.213-3.07,3.091,3.091,0,0,0,0-4.328,4.491,4.491,0,0,1,0-6.14,3.08,3.08,0,0,0,0-4.319,4.488,4.488,0,0,1,0-6.137,3.081,3.081,0,0,0,0-4.32A4.407,4.407,0,0,1,793,793.8Zm0-20a0.969,0.969,0,0,1,1.911,0,3.014,3.014,0,0,0,.883,2.16,4.486,4.486,0,0,1,0,6.136,3.083,3.083,0,0,0,0,4.32,4.488,4.488,0,0,1,0,6.137,3.087,3.087,0,0,0,0,4.324,4.5,4.5,0,0,1,0,6.142,3.014,3.014,0,0,0-.884,2.163,0.969,0.969,0,0,1-1.911,0,4.414,4.414,0,0,1,1.213-3.07,3.089,3.089,0,0,0,0-4.327,4.491,4.491,0,0,1,0-6.14,3.081,3.081,0,0,0,0-4.32,4.488,4.488,0,0,1,0-6.137,3.081,3.081,0,0,0,0-4.32A4.409,4.409,0,0,1,793,773.8Zm-4,5.2h2v41h-2V779Zm20,0h2v41h-2V779Z"
+                    transform="translate(-789 -769)"></path>
+                </svg>
+              </div><!-- /.col-lg-12 -->
+              <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="contact-box">
+                  <h6 class="contact__box-title">Addresse</h6>
+                  <ul class="contact__box-list list-unstyled">
+                    <li> Angle Avenue Al Qods, Oujda</li>
+                  </ul>
+                </div><!-- /.contact-box -->
+              </div><!-- /.col-lg-4 -->
+              <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="contact-box">
+                  <h6 class="contact__box-title">Horaires d'ouverture</h6>
+                  <ul class="contact__box-list list-unstyled">
+                    <li>Lun - Dim: 	06:30AM – 08:00PM</li>
+                   
+                  </ul>
+                </div><!-- /.contact-box -->
+              </div><!-- /.col-lg-4 -->
+              <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="contact-box">
+                  <h6 class="contact__box-title">Dîner Privé ou Résevation</h6>
+                  <ul class="contact__box-list list-unstyled">
+                    <li><span>Email:</span><a href="assitana@contact.com">assitana@contact.com</a></li>
+                    <li><span>Tel:</span><a href="tel:05366-88080">05366-88080</a></li>
+                  </ul>
+                </div><!-- /.contact-box -->
+              </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+          </div><!-- /.footer-top -->
+      
+        </div><!-- /.container -->
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-12">
+                <div class="footer__copyright mb-30">
+                  <span>&copy;  <a href="http://beekom.ma" class="color-theme">Beekom</a> </span>
+                 
+                </div>
+                <ul class="social__icons social__icons-white justify-content-center">
+                  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fa fa-tripadvisor"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                </ul><!-- /.social__icons -->
+              </div>
+            </div><!-- /.row -->
+          </div><!-- /.container -->
+          <svg class="footer__divider-shape-bottom" xmlns="http://www.w3.org/2000/svg" width="142" height="17"
+            viewBox="0 0 142 17">
+            <path
+              d="M800,600V583c8.782,15.985,46.811,11.315,56,12a35.721,35.721,0,0,1,15,5m-71,0V583c-8.782,15.985-46.811,11.315-56,12a35.717,35.717,0,0,0-15,5"
+              transform="translate(-729 -583)"></path>
+          </svg>
+        </div><!-- /.Footer-bottom -->
+      </div><!-- /.Footer-inner -->
+    </footer><!-- /.Footer -->
+    <button id="scrollTopBtn"><i class="fa fa-angle-up"></i></button>
+
+
+  </div>
+  <!-- /.wrapper -->
+
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+  <script src="assets/js/plugins.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
